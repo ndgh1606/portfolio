@@ -1,10 +1,5 @@
 import { useEffect, useRef } from "react";
 
-/**
- * useScrollReveal
- * Adds .visible class to elements with .reveal / .reveal-left / .reveal-right
- * when they enter the viewport, triggering CSS transitions.
- */
 export default function useScrollReveal() {
   const ref = useRef(null);
 
