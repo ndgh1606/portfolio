@@ -124,6 +124,7 @@ export default function About() {
               <a
                 href="/NguyenDangGiaHuy_Intern.pdf"
                 download="NguyenDangGiaHuy_Resume.pdf"
+                target="_blank"
                 className="glow-btn flex items-center gap-2 text-navy-950 font-semibold font-display text-sm px-6 py-3 rounded-full text-[#050d1a]"
               >
                 <Download size={16} />
