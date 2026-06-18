@@ -122,15 +122,13 @@ export default function About() {
             {/* CTA Buttons */}
             <div id="resume" className="reveal flex flex-wrap gap-4 pt-2">
               <a
-                hhref="/NguyenDangGiaHuy_Intern.pdf"
-  download="NguyenDangGiaHuy_Resume.pdf"
-  target="_blank"
-  rel="noreferrer"
-  className="glow-btn flex items-center gap-2 font-semibold font-display text-sm px-6 py-3 rounded-full text-[#050d1a]"
->
-  <Download size={16} />
-  Download Resume
-</a>
+                href="/NguyenDangGiaHuy_Intern.pdf"
+                download="NguyenDangGiaHuy_Resume.pdf"
+                className="glow-btn flex items-center gap-2 text-navy-950 font-semibold font-display text-sm px-6 py-3 rounded-full text-[#050d1a]"
+              >
+                <Download size={16} />
+                Download Resume
+              </a>
               <a
                 href="https://github.com/ndgh1606"
                 target="_blank"
