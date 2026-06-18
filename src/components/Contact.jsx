@@ -1,13 +1,9 @@
 import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { Send, CheckCircle, AlertCircle, Mail, User, MessageSquare, Loader } from "lucide-react";
-
-// ─────────────────────────────────────────────────────────────────────────────
-// Replace these with your real EmailJS credentials (see setup guide below).
-// ─────────────────────────────────────────────────────────────────────────────
-const EMAILJS_SERVICE_ID  = "YOUR_SERVICE_ID";   // e.g. "service_abc123"
-const EMAILJS_TEMPLATE_ID = "YOUR_TEMPLATE_ID";  // e.g. "template_xyz456"
-const EMAILJS_PUBLIC_KEY  = "YOUR_PUBLIC_KEY";   // e.g. "AbCdEfGhIjKlMnOp"
+const EMAILJS_SERVICE_ID  = "service_jh8dizv";   
+const EMAILJS_TEMPLATE_ID = "template_p5jf5h3";  
+const EMAILJS_PUBLIC_KEY  = "BVHEvhdEeYz7jQTJH";   
 
 const CONTACT_INFO = [
   {
