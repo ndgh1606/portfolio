@@ -19,7 +19,7 @@ const PROJECTS = [
       "A full-featured web platform built for a construction materials company. Designed and developed a responsive, modern UI with smooth navigation and product showcasing. Focused on performance optimization and clean component architecture.",
     tech: ["ReactJS", "JavaScript", "CSS3", "Responsive Design"],
     demo: "https://imc-liard.vercel.app",
-    github: "https://github.com/ndgh1606",
+    github: "https://github.com/ndgh1606/imc",
     icon: <Globe size={20} />,
     accentFrom: "from-cyan-500",
     accentTo: "to-blue-600",
