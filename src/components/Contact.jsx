@@ -293,9 +293,14 @@ export default function Contact() {
                 <form onSubmit={handleVerifyOTP} className="space-y-5">
                   <div>
                     <h3 className="font-display font-semibold text-white text-lg">Enter OTP Code</h3>
-                    <p className="text-slate-400 text-sm mt-1">
-                      We sent a 6-digit code to <span className="text-cyan-400 font-mono">{email}</span>
-                    </p>
+                 <p className="text-slate-400 text-sm mt-1">
+  We sent a 6-digit code to{" "}
+  <span className="text-cyan-400 font-mono">{email}</span>
+  <br />
+  <span className="text-yellow-400 text-xs">
+    ⚠ If you don't see it, please check your spam/junk folder.
+  </span>
+</p>
                   </div>
                   <div className="space-y-1.5">
                     <label className="font-mono text-xs text-slate-400 uppercase tracking-widest flex items-center gap-1.5">
